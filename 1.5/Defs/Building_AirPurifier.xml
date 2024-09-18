@@ -7,7 +7,7 @@
 		<description>A device that filters and cleans the air, removing contaminants like dust, pollen, and smoke. It helps maintain clean, breathable air, especially in enclosed spaces. Automatically adjusts to keep air quality at optimal levels.</description>
 		<thingClass>AirPurifier.Building_AirPurifier</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Misc/TempControl/Heater</texPath>
+			<texPath>Things/Building/Misc/AirPurifier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.5,0.3,0.7)</volume>
@@ -86,8 +86,8 @@
 		<label>charcoal filter</label>
 		<description>Charcoal filters designed for air purifiers, efficiently absorb and neutralize odors, harmful gases, and airborne toxins. These filters help improve air quality by trapping pollutants, ensuring a fresh and breathable environment.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/ComponentIndustrial</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Things/Item/Resource/CharcoalFilter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
