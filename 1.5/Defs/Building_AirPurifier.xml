@@ -36,14 +36,16 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>6</Mass>
 			<Flammability>0.5</Flammability>
+			<Cleanliness>5</Cleanliness>
 		</statBases>
 		<tickerType>Rare</tickerType>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
 		<costList>
-			<Steel>50</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>20</Steel>
+			<Chemfuel>30</Chemfuel>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<placeWorkers>
@@ -57,10 +59,6 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<!-- <li Class="CompProperties_Glower"> -->
-				<!-- <glowRadius>3</glowRadius> -->
-				<!-- <glowColor>(255,150,100,0)</glowColor> -->
-			<!-- </li> -->
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Refuelable">
 				<compClass>AirPurifier.CompAirPurifierFuel</compClass>
@@ -78,7 +76,7 @@
 		<designationCategory>Temperature</designationCategory>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
-			<li>Electricity</li>
+			<li>Fabrication</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
