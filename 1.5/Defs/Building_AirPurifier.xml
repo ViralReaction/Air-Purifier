@@ -61,14 +61,14 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Refuelable">
-				<compClass>AirPurifier.CompAirPurifierFuel</compClass>
+				<!-- <compClass>AirPurifier.CompAirPurifierFuel</compClass> -->
 				<fuelCapacity>1.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
 						<li>VR_FilterFuel</li>
 					</thingDefs>
 				</fuelFilter>
-				<initialFuelPercent>0</initialFuelPercent>
+				<fuelConsumptionRate>0.0025</fuelConsumptionRate>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
@@ -144,7 +144,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<VR_FilterFuel>1</VR_FilterFuel>
+			<VR_FilterFuel>5</VR_FilterFuel>
 		</products>
 		<skillRequirements>
 			<Crafting>4</Crafting>
