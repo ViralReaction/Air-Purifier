@@ -7,18 +7,13 @@
 		<description>A device that filters and cleans the air, removing contaminants like dust, pollen, and smoke. It helps maintain clean, breathable air, especially in enclosed spaces. Automatically adjusts to keep air quality at optimal levels.</description>
 		<thingClass>AirPurifier.Building_AirPurifier</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Misc/AirPurifier</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Misc/AirPurifier/AirPurifier</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
 			<shadowData>
-				<volume>(0.5,0.3,0.7)</volume>
-				<offset>(0,0,-0.15)</offset>
+				<volume>(0.5,0.5,0.7)</volume>
 			</shadowData>
 			<damageData>
 				<rect>(0.234375,0,0.515625,0.984375)</rect>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -26,7 +21,7 @@
 		<passability>PassThroughOnly</passability>
 		<pathCost>30</pathCost>
 		<blockWind>true</blockWind>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<fillPercent>0.4</fillPercent>
 		<thingCategories>
 			<li>BuildingsTemperature</li>
