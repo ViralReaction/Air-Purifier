@@ -18,7 +18,7 @@
 	<loadAfter>
 		<li>ceteam.combatextended</li>
 	</loadAfter>
-	<description>Cleans the air of black smoke.</description>
+	<description>Cleans the air of black smoke. Perfect for all your mountain dwarf, mother's basement, or insect barbecue needs.</description>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/AirPurifier_Icon</modIconPath>
 
 </ModMetaData>

@@ -75,7 +75,7 @@
 		<designationCategory>Misc</designationCategory>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
-			<li>Fabrication</li>
+			<li>AirConditioning</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
