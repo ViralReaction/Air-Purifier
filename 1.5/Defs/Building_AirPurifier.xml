@@ -33,7 +33,7 @@
 			<Flammability>0.5</Flammability>
 			<Cleanliness>5</Cleanliness>
 		</statBases>
-		<tickerType>Rare</tickerType>
+		<tickerType>Normal</tickerType>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>

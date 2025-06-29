@@ -47,6 +47,15 @@ namespace AirPurifier
             return cachedAdjacentCells;
         }
 
+        public override void Tick()
+        {
+            base.Tick();
+            if (this.IsHashIntervalTick(250))
+            {
+                TickRare();
+            }
+        }
+
         public override void TickRare()
         {
             if (!compPowerTrader.PowerOn || !compRefuelable.HasFuel || this.IsOutside()) return;
