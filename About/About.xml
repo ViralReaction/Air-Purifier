@@ -18,6 +18,7 @@
 	<loadAfter>
 		<li>ceteam.combatextended</li>
 	</loadAfter>
-	<description>Cleans the air</description>
+	<description>Cleans the air of black smoke.</description>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/AirPurifier_Icon</modIconPath>
 
 </ModMetaData>

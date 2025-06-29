@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>VR_AirPurifier</defName>
 		<label>air purifier</label>
-		<description>A device that filters and cleans the air, removing contaminants like dust, pollen, and smoke. It helps maintain clean, breathable air, especially in enclosed spaces. Automatically adjusts to keep air quality at optimal levels.</description>
+		<description>A device that filters and cleans the air, removing contaminants like smoke. Automatically adjusts to keep air quality at optimal levels.</description>
 		<thingClass>AirPurifier.Building_AirPurifier</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Misc/AirPurifier/AirPurifier</texPath>
@@ -24,7 +24,7 @@
 		<rotatable>true</rotatable>
 		<fillPercent>0.4</fillPercent>
 		<thingCategories>
-			<li>BuildingsTemperature</li>
+			<li>BuildingsMisc</li>
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
@@ -62,12 +62,12 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</fuelFilter>
-				<fuelConsumptionRate>0.015</fuelConsumptionRate>
-				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelConsumptionRate>0.67</fuelConsumptionRate>
+				<consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
 		</comps>
-		<designationCategory>Temperature</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
 			<li>Fabrication</li>

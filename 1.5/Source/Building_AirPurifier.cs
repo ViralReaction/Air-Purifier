@@ -21,6 +21,7 @@ namespace AirPurifier
             base.SpawnSetup(map, respawningAfterLoad);
             compPowerTrader = GetComp<CompPowerTrader>();
             compRefuelable = GetComp<CompRefuelable>();
+            SmokeConsumptionExtension modExtension = def.GetModExtension<SmokeConsumptionExtension>();
             if (compPowerTrader == null)
             {
                 Log.Error($"Air Purifier :: Missing required comp power trader. Removing {this}");
@@ -33,7 +34,7 @@ namespace AirPurifier
                 Destroy();
                 return;
             }
-            fuelConsumptionRate = compRefuelable.Props.fuelConsumptionRate;
+            fuelConsumptionRate = modExtension?.consumptionRate ?? 0.015f;
             CacheAdjacentCells();
         }
 
